@@ -1,0 +1,67 @@
+.service-type .container {
+    padding: 0;
+    padding-bottom: 120px;
+    
+}
+.service-type__list {
+    @include dflex(space-between);
+    flex-wrap: wrap;
+}
+
+.service-type__item {
+    background-image: url('../../icon_svg/service__icon/paw.svg');
+    background-repeat: no-repeat;
+    background-size: 108px 94px;
+    background-position: right top;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    width: 306px;
+    height: 436px;
+    padding: 44px;
+    margin-bottom: 28px;
+    transition: 0.5s;
+}
+
+.service-type__item:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-type__heading {
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.service-type__paragraph {
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+
+.service-type__button {
+    padding: 14px 28px;
+    margin-top: 16px;
+    background-color: #FFBD54;
+    border:none;
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.button-blue {
+    background-color: #78c0de;
+}
+
+.service-type__item:hover .service-type__button {
+    background-color: #000;
+}

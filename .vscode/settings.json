@@ -6,5 +6,6 @@
             "savePath": "/css"
         }
     ],
-    "AllAutocomplete.showCurrentDocument": false
+    "AllAutocomplete.showCurrentDocument": false,
+    "liveServer.settings.port": 5502
 }

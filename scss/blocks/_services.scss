@@ -1,0 +1,26 @@
+.services .container-large {
+    @include dflex(space-between);
+}
+
+.services__div-left {
+    margin-left: 177px;
+}
+
+.services__heading {    
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.services__paragraph {
+    width: 504px;
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}

@@ -1,0 +1,11 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@mixin dflex( $jc_position) {
+    display: flex;
+    justify-content: $jc_position;
+    align-items: center;
+}

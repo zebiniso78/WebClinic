@@ -1,0 +1,57 @@
+.contacts .container-large {
+    @include dflex(space-between);
+    margin-bottom: 132px;
+}
+
+.contacts-left__div {
+    width: 50%;
+    margin-left: 176px;
+}
+
+.contacts-left__heading {
+    width: 321px;
+    height: 58px;
+    margin-bottom: 28px;
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.contacts-left__paragraph {  
+    width: 510px;
+    height: 60px;
+    margin-bottom: 116px;  
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.contacts-left__list {
+    @include reset-list();
+    @include dflex(space-between);
+    align-items: start;
+}
+
+.contacts-left__item {
+    width: 153px;
+}
+
+.contacts-left__item-img {
+    margin-bottom: 24px;
+}
+
+.contacts-left__item-small {
+    margin-bottom: 8px;
+}
+
+.contacts-left__list-small {
+    @include reset-list();
+}
+
+

@@ -1,0 +1,138 @@
+.nav-top {
+    width: 100%;
+    height: 39px;
+    background-color: #F9F8F8;
+}
+
+.nav-top__wrapper {
+    @include dflex(space-between);
+    width: 1117px;
+    height: 39px;
+    margin-left: 193px;
+    margin-right: 65px;
+}
+
+.nav-top__adress-box {
+    @include dflex(center)
+}
+
+.nav-top__icon {
+    margin-right: 9px;
+}
+
+.nav-top__paragraph {
+    font-family: 'Futura PT', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    transition: 0.5s;
+}
+
+.nav-top__list {
+    @include reset-list;
+    @include dflex(center);
+}
+
+.nav-top__item .nav-top__item-link, .nav-top__item {
+    @include reset-list;
+    @include dflex(center);
+    text-decoration: none;
+    margin-right: 9px;
+}
+
+.nav-top__item-link:hover .nav-top__paragraph {
+    color: #FFBD54;
+}
+
+.nav-top__item-link:active .nav-top__paragraph {
+    color: #333;
+    opacity: 0.6;
+}
+
+.nav-bottom {
+    width: 100%;
+    height: 61px;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+}
+
+.nav-bottom__wrapper {
+    @include dflex(space-between);
+    width: 1310px;
+    height: 61px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.nav-bottom__link {
+    display: block;
+    transition: 0.9s;
+}
+
+.nav-bottom__link:hover .nav-bottom__link-img {
+    opacity: 0.8;
+}
+
+.nav-bottom__link:active .nav-bottom__link-img {
+    opacity: 0.6;
+}
+
+.nav-bottom__list, .nav-bottom__item, .nav-bottom__button {
+    @include dflex(center);
+}
+
+.nav-bottom__list {
+    margin-left: 65px;
+}
+
+.nav-bottom__item {
+    margin-right: 45px;
+}
+
+.nav-bottom__item-link {
+    @include dflex(center);
+    text-decoration:none
+}
+
+.nav-bottom__item-img {
+    margin-right: 12px;
+}
+
+.nav-bottom__item-paragraph {
+    display: block;
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: underline solid transparent;
+    text-decoration-thickness: 4px;
+    transition: 0.5s;
+}
+
+.nav-bottom__item-link:hover .nav-bottom__item-paragraph {
+    text-decoration: underline solid #F4FFAD;
+    text-decoration-thickness: 4px;
+ 
+}
+
+.nav-bottom__item-link:active .nav-bottom__item-paragraph {
+    opacity: 0.5;
+
+}
+
+.nav-bottom__button {
+    background-color: #fff;
+    border: none;
+    margin-right: -34px;
+}
+
+.nav-bottom__button-img {
+    margin-right: 7px;
+}
+

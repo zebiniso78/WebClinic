@@ -1,0 +1,36 @@
+.find-us .container-large {
+    @include dflex(flex-start);
+}
+
+.find-us__right-div {
+    @include dflex(center);
+    align-items:flex-start;
+    flex-direction: column;
+    width: 935px;
+    height: 450px;
+    background-image: url("../../img_svg/contacts_img/path.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top;
+    z-index: -1;
+}
+
+.find-us__right-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 240px;
+    margin-bottom: -24px;
+    z-index: 5;
+}
+
+.find-us__heading {
+    font-family: "Futura PT", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    color: #333333;
+}
